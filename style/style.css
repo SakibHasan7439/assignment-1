@@ -13,6 +13,16 @@ body {
     padding: 0;
 }
 
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.float-left {
+    float: left;
+}
+
 /* header-section-style */
 .header {
     margin-bottom: 69px;
@@ -131,7 +141,7 @@ nav .nav-btn a {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 38.4px 0 ;
+    padding: 15.4px 0 ;
     margin-bottom: 25.6px;
 }
 
@@ -194,10 +204,9 @@ nav .nav-btn a {
 .video-section {
     max-width: 912px;
     margin: 0 auto;
-    padding: 64px 77.6px;
 }
 
-.text-section {
+.video-text-section {
     text-align: center;
 }
 
@@ -205,6 +214,7 @@ nav .nav-btn a {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 15px;
+    margin-bottom: 120.8px;
 }
 
 .video-border {
@@ -219,4 +229,189 @@ nav .nav-btn a {
     line-height: 37px;
     letter-spacing: 0%;
     text-transform: capitalize;
+}
+
+.current-target {
+    max-width: 912px;
+    margin: 0 auto;
+    margin-bottom: 88.8px;
+}
+
+.text-section {
+    text-align: center;
+}
+
+.text-section .section-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19.2px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.text-section .section-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    width: 85%;
+    margin: 0 auto;
+    padding: 13px 0 30px 0;
+}
+
+.target-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.target-section .html {
+    text-align: left;
+}
+
+.target-section .css {
+    text-align: left; 
+}
+
+.target-section .JavaScript {
+    text-align: left;
+}
+
+.target-section .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19.2px;
+    font-weight: 800;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.6;
+    padding: 6px 0 15px 0;
+}
+
+.html {
+    width: 33%;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    width: 33%;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.JavaScript {
+    width: 33%;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-section a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Azeret Mono;
+}
+
+.next-target {
+    width: 912px;
+    margin: 0 auto;
+    margin-bottom: 39.2px;
+}
+
+.next-target .txt-container {
+    text-align: center;
+}
+
+.txt-container .section-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19.2px;
+    font-weight: 800;
+    line-height: 31px;
+    text-transform: capitalize;
+}
+
+.txt-container .description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.7;
+    width: 80%;
+    margin: 0 auto;
+    padding: 19.2px 0 38.4px 0;
+}
+
+.frameworks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.frameworks .box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+
+.box .section-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 19.2px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.box .section-descrip {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+}
+
+.box a {
+    font-family: 13px;
+    font-weight: bold;
+    font-family: Azeret Mono;
+    color: #000000;
+}
+
+.react-position {
+    padding-top: 20px;
+}
+
+ .framework-icon {
+    padding-right: 20px;
+} 
+ /*
+.framework-width {
+    width: 100%;
+} */
+
+.textbox-width {
+    width: 80%;
 }
