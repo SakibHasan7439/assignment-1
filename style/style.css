@@ -164,7 +164,7 @@ nav .nav-btn a {
     width: 100%;
 }
 
-.row .text-title {
+.text-title {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 19.2px;
@@ -173,7 +173,7 @@ nav .nav-btn a {
     letter-spacing: 0%;
 }
 
-.row .text-description {
+.text-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 12.8px;
@@ -188,5 +188,35 @@ nav .nav-btn a {
     opacity: 0.7;
     padding: 10px 15px 10px 15px;
     font-weight: bold;
+    text-transform: capitalize;
+}
+
+.video-section {
+    max-width: 912px;
+    margin: 0 auto;
+    padding: 64px 77.6px;
+}
+
+.text-section {
+    text-align: center;
+}
+
+.video {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.video-border {
+    border-radius: 10px;
+}
+
+.video-section .text-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25.6px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
     text-transform: capitalize;
 }
